@@ -1,1 +1,37 @@
-<p>login works!</p>
+  <div class="modal-header">
+    <h4 class="modal-title">Inicio de sesión</h4>
+    <button type="button" class="close" aria-label="Close" (click)="closeModal('dismiss')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <h1>BlackRock</h1>
+    <form
+    [formGroup]="formLogin"
+    (ngSubmit)="login()"
+    >
+      <div class="mb-3">
+        <!-- <label for="exampleInputEmail1" class="form-label ">Ingresa correo</label> -->
+        <input 
+         type="email" 
+         placeholder="Ingrese correo"
+         class="form-control" 
+         id="exampleInputEmail1" 
+         aria-describedby="emailHelp"
+         formControlName="email">
+      </div>
+      <div class="mb-3">
+        <input type="password" class="form-control" id="exampleInputPassword1" formControlName="password" placeholder="Ingrese contraseña">
+      </div>
+      <button type="submit" class="btn btn-dark" (click)="login()" [disabled]="formLogin.invalid">Iniciar sesión</button>
+    </form>
+    
+     <button type="click" class="btn btn-dark" (click)="loginGoogle()">Google</button>
+   
+  </div>
+  <div class="modal-footer">
+    <p>¿Aún no tienes una cuenta?</p>
+    <a>Registrate aquí</a>
+  </div>
+
+  

@@ -8,18 +8,25 @@ import { environment } from '../environments/environment';
 import { provideAuth,getAuth } from '@angular/fire/auth';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AuthModule } from './auth/auth.module';
+import { PagesModule } from './pages/pages.module';
+import { FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
+    AuthModule,
+    PagesModule,
+    NgbModule,
     BrowserModule,
     AppRoutingModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideAuth(() => getAuth()),
     provideFirestore(() => getFirestore()),
-    NgbModule
+    NgbModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
