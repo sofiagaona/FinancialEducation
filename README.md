@@ -1,6 +1,6 @@
 # BlackRock-Educación Financiera  
   
-Financial Education es una plataforma de educación financiera que tiene el objetivo de apoyar a los usuarios a adquirir conocimiento financiero que le permita adquirir las bases y la confianza necesaria para iniciar en el mundo de las inversiones permitiéndole mejorar su calidad y estilo de vida.
+Este proyecto presenta una plataforma de educación financiera que tiene el objetivo de apoyar a los usuarios a adquirir conocimiento financiero que les proporcione las bases y la confianza necesaria para iniciar en el mundo de las inversiones permitiéndole mejorar su calidad y estilo de vida.
 
 ## Comenzando 🚀  
   
