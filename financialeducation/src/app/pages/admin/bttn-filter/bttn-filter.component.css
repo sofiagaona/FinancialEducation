@@ -1,0 +1,79 @@
+.color{
+    background-color: green;
+}
+
+input{
+    width: 20vw;
+}
+
+button{
+    width: 10vw;
+    height: 2.5vw;
+    border-radius: 0;
+    font-size: 18px;
+}
+
+select {
+    font-family: Noto Sans;
+    padding: 10px 10px 10px 5px;
+    width: 230px;
+    border: none;
+    border-bottom: 2px solid #757575;
+    color: gray; 
+  }
+  
+select:focus {
+    outline: none;
+    border-bottom: 2px solid #FFCE00;
+}
+
+
+.input-group {
+    position: relative;
+    margin: 10px;
+    font-family: Noto Sans;
+}
+
+
+input {
+    font-size: 18px;
+    padding: 10px 10px 0px 0px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #757575;
+   
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 2px solid #FFCE00;
+}
+
+label {
+    color: #999;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 3px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: #FFCE00;
+}
+
+.input-sub {
+    margin-top: 16px;
+}
+
+thead {
+    background-color: #FFCE00;
+}

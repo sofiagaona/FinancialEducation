@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+footer {
+  height: 100px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+}
+
+li {
+  display: inline;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+  background-color: lightgray;
+}
+
+p {
+  font-weight: lighter;
+}

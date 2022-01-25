@@ -1,0 +1,114 @@
+main {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* PRIMERA SECCION */
+
+.contenedor {
+  height: 500px;
+  align-items: center;
+}
+
+.parrafos
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.parrafos
+h3 {
+  margin-top: 20px;
+  font-size: 28px;
+}
+
+.button-quiz {
+  margin-top: 50px;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.first-img {
+  width: 600px;
+}
+
+
+/* SEGUNDO PARRAFO */
+
+.seccion-2 {
+display: flex;
+flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 280px;
+  background-color: #FFCE00;
+/*   z-index: 1; */
+ /*  flex-wrap: wrap; */
+}
+
+.parrafo2 {
+  font-size: 27px;
+  font-weight:normal;
+}
+
+.firma {
+  /* width: 500px; */
+  /* width: 50%;  */
+  font-weight: lighter;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+
+/* TERCERA SECCION  */
+
+.image2 {
+  width: 500px;
+}
+
+.text3 {
+  text-align: right;
+  font-weight: normal;
+  font-size: 25px;
+} 
+
+.titulo3 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.parrafo3 {
+  font-size: 22px;
+}
+
+/* SECCION CUATRO  */
+
+.seccion-4 {
+  font-size: 25px;
+} 
+
+.titulo-4 {
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.parrafo-4 {
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+  font-weight: normal;
+}
+
+.button-quiz-2 {
+ 
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 18px;
+}

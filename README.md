@@ -23,11 +23,14 @@ Estudiantes y/o trabajadores
 ### UI 🔧
  [prototipo de alto nivel](https://www.figma.com/file/GxE0a2uM1ISEVsq2hGJz9L/Untitled?node-id=0%3A1)
 
-*Home
- 
- *Quiz
- 
- *Courses
+* Home
+ <img src= "https://github.com/CarolinaCasas/FinancialEducation/blob/quizcaro/financialeducation/src/assets/img/homeMD.png" alt="home" width="600" /> 
+*  Quiz
+  <img src= "https://github.com/CarolinaCasas/FinancialEducation/blob/quizcaro/financialeducation/src/assets/img/quizMD.png" alt="quiz" width="600" />
+*  Courses
+  <img src= "https://github.com/CarolinaCasas/FinancialEducation/blob/quizcaro/financialeducation/src/assets/img/cursosMD.png" alt="courses" width="600" />  
+  
+  
 ## Construido con 🛠️
 ### Framework:
 <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> [Angular](https://angular.io/) 
@@ -53,7 +56,7 @@ Yudexi Orozco
 * [GitHub](https://github.com/YudexiOrozco)
 * [Linkedin](https://www.linkedin.com/in/yudexi-orozco-672134144/)
  
-Yen Maldonad
+Yen Maldonado
 * [GitHub](https://github.com/YenMaldonado)
 * [Linkedin](https://www.linkedin.com/in/yenny-maldonado-824a551b/) 
 
@@ -64,3 +67,10 @@ Carolina Casas
 ## Expresiones de Gratitud 🎁
 
 Agradecemos a BlackRock y Laboratoria brindarnos la oportunidad y acompañarnos en este proceso donde pudimos desarrollar nuestras life skills y tech skills, tanto de manera individual como en equipo. El feedback siempre fue regalo y atesoraremos el recibido durante este proyecto. 
+
+## Visítanos en nuestra página web
+
+* https://financialeducation-f5611.web.app/
+
+* Inicia sesión como administrador. admin@administrador.com y contraseña: 12345678
+

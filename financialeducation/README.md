@@ -1,27 +1,69 @@
-# Financialeducation
+# BlackRock-Educación Financiera  
+  
+Este proyecto presenta una plataforma de educación financiera que tiene el objetivo de apoyar a los usuarios a adquirir conocimiento financiero que les proporcione las bases y la confianza necesaria para iniciar en el mundo de las inversiones permitiéndole mejorar su calidad y estilo de vida.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
+## Comenzando 🚀  
+  
+### Usuario:
+Al ingresara a la aplicación el usuario accede a una página de bienvenida en el que por medio de contenido dinámico y breve se le invita a realizar un rápido quiz estilo “buzz feed”  de cinco preguntas, con el que se situará al usuario en uno de los cinco niveles que componen el plan de estudios, esto con la intención de proporcionarle el contenido que más se acerque a sus necesidades de conocimiento.
+El contenido que el usuario tiene disponible es el que corresponda a su nivel (o niveles anteriores) para los niveles no alcanzados el contenido no se muestra disponible.  
+  
+### Administrador:  
+El administrador podrá acceder a la base de datos generada con los registros de los usuarios, podrá filtrar por Edad, Género y Ubicación, esto con la intención de poder mejorar sus servicios con base a las estadísticas.  
 
-## Development server
+ 
+## Diseño de la aplicación  
+### UX  
+Perfil Usuarios 📋  
+Género: Hombres y Mujeres  
+Edad: 20-45 años  
+Ocupación:   
+Estudiantes y/o trabajadores
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### UI 🔧
+ [prototipo de alto nivel](https://www.figma.com/file/GxE0a2uM1ISEVsq2hGJz9L/Untitled?node-id=0%3A1)
 
-## Code scaffolding
+* Home
+ <img src= "https://github.com/CarolinaCasas/FinancialEducation/blob/quizcaro/financialeducation/src/assets/img/homeMD.png" alt="home" width="600" /> 
+*  Quiz
+  <img src= "https://github.com/CarolinaCasas/FinancialEducation/blob/quizcaro/financialeducation/src/assets/img/quizMD.png" alt="quiz" width="600" />
+*  Courses
+  <img src= "https://github.com/CarolinaCasas/FinancialEducation/blob/quizcaro/financialeducation/src/assets/img/cursosMD.png" alt="courses" width="600" />  
+  
+  
+## Construido con 🛠️
+### Framework:
+<img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> [Angular](https://angular.io/) 
+### Base de datos
+<img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> [Firebase](https://firebase.google.com/)
+### Framework CSS
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> [Bootstrap](https://getbootstrap.com/)
+ ### Herramienta de diseño
+<img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> [Figma](https://www.figma.com/)    
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Autoras ✒️
+:sparkles::purple_heart:Purpurina Software Factory:purple_heart::sparkles:  
 
-## Build
+Ana Sofía Moreno
+* [GitHub](https://github.com/anasofiamoreno)
+* [Linkedin](http://www.dropwizard.io/1.0.2/docs/) 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Sofía Herrera
+* [GitHub](https://github.com/sofiagaona)
+* [Linkedin](https://www.linkedin.com/in/sofia-magdalena-herrera-gaona-6b871b221/) 
 
-## Running unit tests
+Yudexi Orozco
+* [GitHub](https://github.com/YudexiOrozco)
+* [Linkedin](https://www.linkedin.com/in/yudexi-orozco-672134144/)
+ 
+Yen Maldonad
+* [GitHub](https://github.com/YenMaldonado)
+* [Linkedin](https://www.linkedin.com/in/yenny-maldonado-824a551b/) 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Carolina Casas
+* [GitHub](https://github.com/CarolinaCasas)
+* [Linkedin](www.linkedin.com/in/CaroCasas) 
 
-## Running end-to-end tests
+## Expresiones de Gratitud 🎁
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Agradecemos a BlackRock y Laboratoria brindarnos la oportunidad y acompañarnos en este proceso donde pudimos desarrollar nuestras life skills y tech skills, tanto de manera individual como en equipo. El feedback siempre fue regalo y atesoraremos el recibido durante este proyecto. 

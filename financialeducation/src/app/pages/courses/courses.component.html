@@ -1,1 +1,175 @@
-<p>courses works!</p>
+<app-header></app-header>
+
+<div class="d-flex flex-column aling-contente-center">
+  <div class="d-flex flex-column bg-black mt-4">
+    <h1 class="text-orange textCongratulacions ms-5 my-5">
+      Hola {{name}} estas en el nivel: {{ infoUser?.namelevel }}
+    </h1>
+
+    <div class="level-group mt-2" >
+      <button (click)="setLevel($event)" name="1" class="btn-level" id="1">
+        <!-- [ngStyle]="{ opacity: opa }" -->
+
+        <img
+          src="assets/img/piclevel/zombie.png"
+          class="card-img-top img-size"
+          alt="..."
+          [ngClass]="{ ffs: selectedLevel == 1 }"
+        />
+        <h5 class="text-card text-light textCongratulacions fs-4 my-5">
+          {{ level01content[0] }}
+        </h5>
+      </button>
+
+      <button
+        (click)="setLevel($event)"
+        name="2"
+        class="btn-level"
+        id="2"
+        [ngClass]="{ disabledbutton: showc2 }"
+      >
+        <img
+          src="assets/img/piclevel/survivor.png"
+          class="card-img-top img-size"
+          alt="..."
+          [ngClass]="{ ffs: selectedLevel == 2 }"
+        />
+        <h5 class="text-card textCongratulacions fs-4 my-5">
+          {{ level02content[0] }}
+        </h5>
+      </button>
+
+      <button
+        (click)="setLevel($event)"
+        name="3"
+        class="btn-level"
+        id="3"
+        [ngClass]="{ disabledbutton: showc3 }"
+      >
+        <img
+          src="assets/img/piclevel/executive.png"
+          class="card-img-top img-size"
+          alt="..."
+          [ngClass]="{ ffs: selectedLevel == 3 }"
+        />
+        <h5 class="text-card textCongratulacions fs-4 my-5">
+          {{ level03content[0] }}
+        </h5>
+      </button>
+
+      <button
+        (click)="setLevel($event)"
+        name="4"
+        class="btn-level"
+        id="4"
+        [ngClass]="{ disabledbutton: showc4 }"
+      >
+        <img
+          src="assets/img/piclevel/elite.png"
+          class="card-img-top img-size"
+          alt="..."
+          [ngClass]="{ ffs: selectedLevel == 4 }"
+        />
+        <h5 class="text-card textCongratulacions fs-4 my-5">
+          {{ level04content[0] }}
+        </h5>
+      </button>
+
+      <button
+        (click)="setLevel($event)"
+        name="5"
+        class="btn-level"
+        id="5"
+        [ngClass]="{ disabledbutton: showc5 }"
+      >
+        <img
+          src="assets/img/piclevel/leyenda.png"
+          class="card-img-top img-size"
+          alt="..."
+          [ngClass]="{ ffs: selectedLevel == 5 }"
+        />
+        <h5 class="text-card textCongratulacions fs-4 my-5">
+          {{ level05content[0] }}
+        </h5>
+      </button>
+    </div>
+  </div>
+
+  <div class="contentlevel mt-5 mx-5">
+    <div class="contentleveltext w-50 mx-5">
+      <div class="">
+        <h1 class="ms-0 textCongratulacions mb-5 fs-1">
+          ¿Que aprenderas en este nivel?
+        </h1>
+      </div>
+      <h2 class="text-break textCongratulacions fs-3">{{ contentLevel }}</h2>
+    </div>
+
+    <div class="d-flex flex-column  img-size-course2">
+      <img src="assets/img/level/battle.jpeg" alt="" />
+    </div>
+  </div>
+
+  <div class="levelcourses mt-5 pt-5">
+    <div>
+      <h2 class="ms-5 textCongratulacions text-black">Módulos del Curso</h2>
+    </div>
+
+    <div *ngIf="selectedLevel <= level" class="groupcurses mx-5 mt-5 mb-5">
+      <button class="btn-course mx-5">
+        <img
+          [src]="course01link"
+          class="card-img-top img-size-course"
+          alt="..."
+        />
+        <h5 class="text-card-course my-3 textCongratulacions fs-4">
+          {{ course01 }}
+          {{ levelMod1 }}
+        </h5>
+      </button>
+
+      <button class="btn-course mx-5">
+        <img
+          [src]="course02link"
+          class="card-img-top img-size-course"
+          alt="..."
+        />
+        <h5 class="text-card-course my-3 textCongratulacions fs-4">
+          {{ course02 }}
+          {{ levelMod2 }}
+        </h5>
+      </button>
+
+      <button class="btn-course mx-5">
+        <img
+          [src]="course03link"
+          class="card-img-top img-size-course"
+          alt="..."
+        />
+        <h5 class="text-card-course my-3 textCongratulacions fs-4">
+          {{ course03 }}
+          {{ levelMod3}}
+        </h5>
+      </button>
+    </div>
+
+    <div
+      *ngIf="selectedLevel > level"
+      class="groupcurses mx-5 mt-5 d-flex flex-row justify-content-start pb-5"
+    >
+      <img
+        src='assets/img/pc.jpeg'
+        alt=""
+      />
+      <div class="ps-5">
+        <h1 class="fs-1">Curso no disponible</h1>
+        <p class="fs-3">
+          Estue curso estara disponible hasta que termine el nivel
+          {{ infoUser?.namelevel }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

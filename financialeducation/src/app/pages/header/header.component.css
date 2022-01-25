@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+.contenedor{
+  width: 100%;
+  background-color: black;
+}
+
+img {
+  width: 30vw;
+  height: auto;
+}
+
+.navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,100)' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar .navbar-toggler {
+  border-color: white;
+}
+
+nav {
+  background-color: black;
+}
+
+.button-1 {
+  font-family: 'Noto Sans', sans-serif;
+  color: white;
+  margin: 5px;
+  top: 30px;
+  width: 180px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: black;
+  border: none;
+}
+.button-1:hover {
+  background-color: #545454;
+}
+
+.options {
+  cursor: pointer;
+}
