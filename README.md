@@ -5,8 +5,8 @@ Este proyecto presenta una plataforma de educación financiera que tiene el obje
 ## Comenzando 🚀  
   
 ### Usuario:
-Al ingresara a la aplicación el usuario accede a una página de bienvenida en el que por medio de contenido dinámico y breve se le invita a realizar un rápido quiz estilo “buzz feed”  de cinco preguntas, con el que se situará al usuario en uno de los cinco niveles que componen el plan de estudios, esto con la intención de proporcionarle el contenido que más se acerque a sus necesidades de conocimiento.
-El contenido que el usuario tiene disponible es el que corresponda a su nivel (o niveles anteriores) para los niveles no alcanzados el contenido no se muestra disponible.  
+Al ingresar a la aplicación el usuario accede a una página de bienvenida que por medio de contenido dinámico y breve se le invita a realizar un rápido quiz estilo “buzz feed”  de cinco preguntas, con el que se situará al usuario en uno de los cinco niveles que componen el plan de estudios de BlackRock, esto con la intención de proporcionarle el contenido que más se acerque a sus necesidades de conocimiento.
+El contenido que el usuario tiene disponible es el que corresponda a su nivel (o niveles anteriores) pero, los niveles no alcanzados el contenido no se muestra disponible.  
   
 ### Administrador:  
 El administrador podrá acceder a la base de datos generada con los registros de los usuarios, podrá filtrar por Edad, Género y Ubicación, esto con la intención de poder mejorar sus servicios con base a las estadísticas.  
@@ -36,7 +36,7 @@ Estudiantes y/o trabajadores
 <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> [Angular](https://angular.io/) 
 ### Base de datos
 <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> [Firebase](https://firebase.google.com/)
-### Framework CSS
+### Librería CSS
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> [Bootstrap](https://getbootstrap.com/)
  ### Herramienta de diseño
 <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> [Figma](https://www.figma.com/)    
@@ -66,7 +66,7 @@ Carolina Casas
 
 ## Expresiones de Gratitud 🎁
 
-Agradecemos a BlackRock y Laboratoria brindarnos la oportunidad y acompañarnos en este proceso donde pudimos desarrollar nuestras life skills y tech skills, tanto de manera individual como en equipo. El feedback siempre fue regalo y atesoraremos el recibido durante este proyecto. 
+Agradecemos a BlackRock y Laboratoria por brindarnos la oportunidad y acompañarnos en este proceso donde pudimos desarrollar nuestras life skills y tech skills, tanto de manera individual como en equipo. El feedback siempre fue un regalo y atesoraremos el recibido durante este proyecto. 
 
 ## Visítanos en nuestra página web
 
