@@ -1,0 +1,223 @@
+#check::after {
+  background-color: #fefefe;
+  border: 1px solid;
+  border-color: rgb(2, 2, 2);
+  border-radius: 5px;
+  cursor:pointer;
+}
+input[type="radio"]:checked + span {
+  color: #f00;
+}
+
+.title{
+  color: hsla(13, 100%, 54%, 1);
+}
+
+.sizeBox{
+  width: 70%;
+}
+
+.question1-img{
+width: 150px;
+}
+
+input[type="radio"] + label:before {
+  content: "";
+  width: 26px;
+  height: 26px;
+  float: left;
+  margin: 0.5em 0.5em 0 0;
+  border: 2px solid #ccc;
+  background: #fff;
+  border-radius: 100%;
+}
+
+/* Centra el input personalizado con el texto */
+.custom-radio-checkbox {
+display: inline-flex;
+align-items: center;
+cursor: pointer;
+font-family: arial;
+}
+
+/* Modificador para dar la imagen de radio */
+.custom-radio-checkbox__show--radio {
+background-image: url(/assets/img/cuadro.png); 
+margin-right: 30%;
+}
+
+/* Oculta input original */
+.custom-radio-checkbox > .custom-radio-checkbox__input {
+display: none;
+}
+
+/* Radio personalizado usando <span> */
+.custom-radio-checkbox > .custom-radio-checkbox__show {
+display: inline-block;
+min-width: 80px;
+min-height: 80px;
+margin-right: .5rem;
+background-size: cover;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+	.custom-radio-checkbox > .custom-radio-checkbox__show {
+  
+    min-width: 50px;
+    min-height: 50px;
+   
+  }
+} 
+/* Cambia el radio personalizado cuando es pulsado */
+.custom-radio-checkbox > .custom-radio-checkbox__input:checked + .custom-radio-checkbox__show--radio {
+background-image: url(/assets/img/tipoCambio.gif);
+}
+
+.ancho-p {
+  min-width: 30%;
+}
+
+.img-resp{
+  height: 150px;
+  width: 150px;
+  max-width: 20vw;
+  height: auto;
+}
+
+.img-resp-quest3{
+
+  max-width: 15vw;
+  height: auto;
+
+}
+.ahorro-inversion{
+margin-right: 8%;
+}
+
+
+select{
+color:gray
+}
+
+/* BARRA  */
+
+.circle-step{
+  padding: 20px;
+  border: solid;
+  margin: auto;
+  font-size: 35px;
+  font-family: Noto Sans;
+  font-weight: bold;
+  height: 120px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  width: 7vw;
+  position: fixed;
+  left: 3px;
+  bottom: 20px;
+  
+}
+
+.quiz-view{
+  scrollbar-width: 0;
+  width: 88vw;
+}
+
+
+.all-view{
+  font-family: Noto Sans;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+  top: 100px;
+}
+
+
+.bbgred{
+  background-color: #FFCE00;
+}
+
+.bbwhite{
+  background-color: white;
+}
+
+
+::-webkit-scrollbar {display: none;}
+
+
+
+/* INPUTS DE INGRESAR DATOS */
+
+.inputs-group {
+  position: relative;
+  margin: 10px;
+  font-family: Noto Sans;
+}
+
+.input-datos {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #757575;
+}
+
+.input-datos:focus {
+  outline: none;
+  border-bottom: 2px solid #FFCE00;
+}
+
+.labels {
+  color: #999;
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 3px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+.input-datos:focus ~ .labels,
+.input-datos:valid ~ .labels {
+  top: -20px;
+  font-size: 14px;
+  color: #FFCE00;
+}
+
+select {
+  font-family: Noto Sans;
+  padding: 10px 10px 10px 5px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #757575;
+  color: gray; 
+}
+
+select:focus {
+  outline: none;
+  border-bottom: 2px solid #FFCE00;
+}
+
+
+.gallery img{
+  width: 60%;
+}
+
+.text-datos {
+  font-size: calc(0.6rem + 1vw);
+}

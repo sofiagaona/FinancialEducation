@@ -1,0 +1,104 @@
+.close {
+  width: 30px;
+}
+
+button {
+  border: none;
+  background-color: #FFCE00;
+}
+
+.logo {
+ height: 30px;
+}
+
+.contenedor-modal {
+  /* border-radius: 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* margin: 10px; */
+  width: 100%;
+
+}
+
+.header {
+  background-color: #FFCE00;
+}
+
+.button-submit {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  cursor: pointer;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: bold;
+  width: 346px;
+  height: 40px;
+}
+.button-submit:hover {
+  background-color: rgba(89, 86, 86, 0.782);
+}
+
+
+
+p {
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+a {
+  font-family: Noto Sans;
+  font-size: 20px;
+  font-weight: bold;
+}
+.modal-footer {
+  width: 370px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.input-group {
+  position: relative;
+  margin: 40px 0 20px;
+  font-family: Noto sans;
+}
+
+input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #757575;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 2px solid #FFCE00;
+}
+
+label {
+  color: #999;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+  top: -20px;
+  font-size: 14px;
+  color: #FFCE00;
+}
+
+

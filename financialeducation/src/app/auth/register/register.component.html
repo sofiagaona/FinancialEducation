@@ -1,0 +1,137 @@
+<!-- SECCION DE BANNER-->
+<div class="banner">
+  <img
+    class="ms-3 img-logo img-fluid"
+    src="./assets/img/Logo-BlackRock.png"
+    alt=""
+  />
+  <img (click)="closeModal()" class="x mx-5" src="assets/img/close-black.png" alt="" />
+</div>
+
+<div class="container-lg">
+  <div class="row">
+
+    <!-- SECCION DE FELICIDADES-->
+    <div class="col ">
+        <div class="row contenedor">
+
+          <div class="col contenedor">
+            <h1 class="textCongratulacions text-white mt-3">¡Felicidades!</h1>
+            <span class="textName h2">
+              {{ name }}
+            </span>
+            <p class="textCongratulacions text-white">
+              Has dado un paso importante en tu camino de inversionista.
+            </p>
+          </div>
+          
+          <div class="col contenedor">
+            <div class="stars ">
+              <div class="showstar container-fluid" 
+          
+                  > 
+                <img src="{{ levelimage }}"  alt=""> 
+              </div>
+                      <!-- [ngClass]="{ hidestar: animationR }" -->
+            </div>
+          </div>
+
+          <div class="col ">
+             <p class="textCongratulacions text-white text-center">
+            En este momento te encuentras en el nivel: <br />
+            <span class="text-level">{{ namelevel }}</span>
+            </p>
+            <p class="textCongratulacions text-center text-white">
+              ¡Te deseamos éxito en este nuevo aprendizaje!
+            </p>
+          </div>
+         
+      </div>
+    </div>
+
+      <!-- SECCION DE DATOS -->
+      
+      <div class="col m-5">
+        <div class="">
+          <h3 class="textRegister text-center mb-4">
+            Regístrate para visualizar los cursos
+          </h3>
+        </div>
+
+        <div class="input-group">
+          <input
+            
+            name="email"
+            type="text"
+            [(ngModel)]="email"
+            required
+          />
+          <label>Ingrese email</label>
+        </div>
+
+        <div class="input-group">
+          <input
+           
+            type="password"
+            [(ngModel)]="password"
+            (input)="checkPassword($event)"
+            required
+          />
+          <label>Ingrese contraseña</label>
+        </div>
+
+        <div class="input-group">
+          <input
+            
+            type="password"
+            [(ngModel)]="passwordConfirm"
+            (input)="checkPassword($event)"
+            required
+          />
+          <label>Repite contraseña</label>
+        </div>
+
+        <p class="text-danger">{{ passwordmessage }}</p>
+       
+
+        <div class="input-group">
+          <input
+            type="text"
+            name="cp"
+            (input)="ls($event)"
+            required
+          />
+          <label>Código postal</label>
+        </div>
+
+        <div class="input-group">
+          <select name="study" id="study" [(ngModel)]="study">
+            <option hidden selected>Estudios</option>
+            <option value="Primaria">Primaria</option>
+            <option value="Secundaria">Secundario</option>
+            <option value="Bachillerato">Bachillerato</option>
+            <option value="Profesional">Profesional</option>
+            <option value="Maestria">Maestria</option>
+          </select>
+        </div>
+
+        <div class="input-group">
+          <select name="job" id="job" [(ngModel)]="job">
+            <option hidden selected>Ocupación</option>
+            <option value="Estudiante">Estudiante</option>
+            <option value="Empleado">Empleado</option>
+            <option value="Empresario">Empresario</option>
+            <option value="Independiente">Independiente</option>
+            <option value="Desocupado">Desocupado</option>
+          </select>
+        </div>
+
+        <div class="mb-3 d-flex justify-content-center">
+          <button class="btn btn_continue" (click)="sendForm()">
+            Continuar
+          </button>
+        </div>
+      </div>
+  </div>
+</div>
+

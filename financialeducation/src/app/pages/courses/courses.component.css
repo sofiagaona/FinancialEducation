@@ -1,0 +1,161 @@
+
+.banner{
+    display:flex;
+    align-items: center;
+    height: 100px;  
+}
+
+.level-group{
+    display: flex;
+    /* height: 400px; */
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+
+    /* overflow: hidden; */
+}
+
+.img-size{
+    max-width: 80%;
+    transition-duration: .5s;
+    border: white;
+}
+
+
+.img-size-course{
+    height: 300px;
+    max-width: 300px;
+}
+
+.img-size:hover{
+    transform: scale(1.3);
+}
+
+.btn-level{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: black;
+}
+
+.minibanner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+}
+
+.bg-black
+{
+    background-color: black;
+}
+
+.contentlevel{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+margin-top: 40px;
+}
+
+.contentleveltext{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.img-size-course2{
+
+   width: 50%;
+}
+
+.groupcurses{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btn-course{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+
+}
+
+.text-card{
+    color: white;
+    border-bottom: 0;
+}
+
+.text-card-course{
+    color: black;
+    border-bottom: 0;
+    
+}
+
+.levelcourses{
+background-color: orangered;
+}
+
+.textCongratulacions{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.disabledbutton{
+    pointer-events: fill;
+    opacity: 0.4;
+}
+
+.ffs{
+ scale: 1.3;
+}
+
+.text-orange{
+    color: orangered;
+}
+
+.w-40{
+    width: 40%;
+}
+
+@media (max-width: 600px) {
+    .level-group{
+        display: flex;
+        flex-direction: column ;
+        
+        /* overflow: hidden; */
+    }
+    .img-size{
+        max-width: 60%;
+    }
+
+    .groupcurses{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contentlevel{
+        display: flex;
+        flex-direction: column;
+    
+        }
+
+        .img-size-course{
+            height: 30vh;
+           width: 70vw;
+        }
+
+        .img-size-course2{
+            height: 70vh;
+           width: 90vw;
+        }
+    }
+  

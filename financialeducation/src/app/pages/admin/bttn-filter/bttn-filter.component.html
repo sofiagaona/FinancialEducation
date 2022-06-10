@@ -1,0 +1,60 @@
+<div class="m-5">
+    <form [formGroup]="formFilter" (ngSubmit)="filterAdmin()" class="row g-3 d-flex justify-content-center align-items-center">
+          
+            <div class="col-auto">
+                <div class="form-floating input-group">
+                  <select class="register" (mouseleave)="subcat()" id="inputGroupSelect01" formControlName="categoria">
+                    <option value="" hidden selected class="colorSelect">Categoria</option>
+                    <option value="age">Edad</option>
+                    <option value="state">Estado</option>
+                    <option value="sex">Género</option>
+                    <option value="study">Nivel de estudio</option>
+                  </select>
+                </div>
+              </div> 
+
+            <div class="col-auto">
+              <div class="form-floating input-group">
+                <select name="" id="" formControlName="subcategoria">
+                  <option *ngFor="let item of subCat" value={{item}}>{{item}}</option>
+                </select>
+                <label *ngIf="subCat.length == 0" for="floatingInputGrid">Subcategoria:</label>
+              </div>
+            </div>
+            
+            <div class="col-auto">
+              <div class="form-floating input-group">
+              <button type="submit" class="btn btn-warning " [disabled]="formFilter.invalid">Enviar</button>
+            </div>
+           </div> 
+        
+    </form>
+ </div>
+
+
+<div class="container-fluid">
+   <!-- <p>{{item['city']}}</p> -->
+  <div class="m-5">
+   <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Nombre</th>
+        <th scope="col">Email</th>
+        <th scope="col">Edad</th>
+        <th scope="col">Estado</th>
+        <th scope="col">Ciudad</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr  *ngFor="let item of data">
+        <td>{{item['name']}}</td>
+        <td>{{item['email']}}</td>
+        <td>{{item['age']}}</td>
+        <td>{{item['state']}}</td>
+        <td>{{item['city']}}</td>
+      </tr>
+    </tbody>
+    </table>  
+  </div>
+</div>
+ 

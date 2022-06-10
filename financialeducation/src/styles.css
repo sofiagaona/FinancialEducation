@@ -1,1 +1,219 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+/* @import '~ng-wizard/themes/ng_wizard.min.css';
+@import '~ng-wizard/themes/ng_wizard_theme_circles.min.css'; */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.modal-content {
+    border: none;
+    border-radius: 0;
+}
+
+/* ngb-modal-window .component-host-scrollable {
+    overflow: scroll;
+
+} */
+/* 
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+	ngb-modal-window .component-host-scrollable {
+        overflow: auto;
+
+    }
+} */
+
+
+.sidebar[_ngcontent-gfn-c115] {
+   
+    top: 80px;
+   height: 0 !important;
+}
+
+.custom-slider .ngx-slider {
+        
+        width: 70% !important;
+}
+
+.custom-slider .ngx-slider .ngx-slider-bar {
+   
+    width: 100%;
+    height: 20px !important;
+    z-index: 1;
+    background: #d8e0f3;
+    border-radius: 2px;
+
+}
+
+.custom-slider .ngx-slider .ngx-slider-pointer {
+    cursor: pointer;
+    width: 42px;
+    height: 42px;
+    top: -14px;
+    background-color: #131414;
+    z-index: 3;
+    border-radius: 30px;
+}
+
+.custom-slider .ngx-slider .ngx-slider-pointer:after {
+    
+    display: none;
+    
+}
+
+.custom-slider .ngx-slider .ngx-slider-bar-wrapper {
+    left: 0;
+    box-sizing: border-box;
+    margin-top: -16px;
+    padding-top: 16px;
+    width: 100%;
+    height: 32px;
+    z-index: 1;
+}
+
+/* Primary */
+.btn-primary {
+    color: #fff;
+    background-color: #FC9BB3;
+    border-color: #FC9BB3;
+}
+.btn-primary:focus {
+    color: #fff;
+    background-color: #FC9BB3;
+    border-color: #FC9BB3;
+    box-shadow: 0 0 0 0.25rem rgba(255, 85, 150, 0.5);
+}
+.btn-check:active+.btn-outline-primary, .btn-check:checked+.btn-outline-primary, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show, .btn-outline-primary:active {
+    color: rgb(0, 0, 0);
+    background-color: #FC9BB3;
+    border-color: #FC9BB3;
+}
+.primary:active {
+    color: #fff;
+    background-color: #FC9BB3;
+    border-color: #FC9BB3;
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color:#ffdde6;
+    border-color: #FC9BB3;
+}
+.primary:hover {
+    color: #212529;
+}
+.btn-outline-primary {
+    color: #585858;
+    border-color: #FC9BB3;
+}
+/* Danger */
+.btn-outline-danger {
+    color: #000000;
+    border-color: #FF4713;
+}
+.btn-danger {
+    color: rgb(0, 0, 0);
+    background-color: #FF4713;
+}
+.btn-check:active+.btn-outline-danger, .btn-check:checked+.btn-outline-danger, .btn-outline-danger.active, .btn-outline-danger.dropdown-toggle.show, .btn-outline-danger:active {
+    color: rgb(0, 0, 0);
+    background-color: #FF4713;
+    }
+.danger:active {
+    color: #fff;
+    background-color: #FF4713;
+    border-color: #FF4713;
+}
+.btn-outline-danger:hover {
+    color: #fff;
+    background-color: hsla(13, 100%, 54%, 0.267);
+    border-color: hsla(13, 100%, 54%, 0.267);
+}
+.btn:hover {
+    color: #212529;
+}
+.btn-outline-danger {
+    color: #FF4713;
+    border-color: #FF4713;
+}
+/* Warning */
+.btn-warning {
+    color: rgb(0, 0, 0);
+    border-color: #FFCE00;
+}
+.btn-check:active+.btn-outline-warning, .btn-check:checked+.btn-outline-warning, .btn-outline-warning.active, .btn-outline-warning.dropdown-toggle.show, .btn-outline-warning:active {
+    color: rgb(0, 0, 0);
+    background-color: #FFCE00;
+    border-color: #FFCE00;
+}
+.warning:active {
+    color: #fff;
+    background-color: #FFCE00;
+    border-color: #FFCE00;
+}
+.btn-outline-warning:hover {
+    color: #fff;
+    background-color: #ffcc005e;
+    border-color: #FFCE00;
+}
+.btn:hover {
+    color: #212529;
+}
+.btn-outline-warning {
+    color: #000000;
+    border-color: #FFCE00;
+}
+/* Dark */
+.btn-dark {
+    color: rgb(247, 247, 247);
+    border-color: #000000;
+}
+.btn-check:active+.btn-outline-dark, .btn-check:checked+.btn-outline-dark, .btn-outline-dark.active, .btn-outline-dark.dropdown-toggle.show, .btn-outline-dark:active {
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    border-color: #000000;
+}
+.dark:active {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.btn-outline-dark:hover {
+    color: rgb(87, 87, 87);
+    background-color: #cfcfcf;
+    border-color: #000000;
+}
+
+.btn-outline-dark {
+    color: #000000;
+    border-color: #000000;
+}
+
+/* solid-btn-primary */
+.btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #FC9BB3;
+    border-color: #FC9BB3;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: #FC9BB3;
+    border-color: #FC9BB3;
+    box-shadow: 0 0 0 0.25rem #fc9bb35b;
+}
+/* solid-btn-danger */
+.btn-check:active+.btn-danger, .btn-check:checked+.btn-danger, .btn-danger.active, .btn-danger:active, .show>.btn-danger.dropdown-toggle {
+    color: rgb(0, 0, 0);
+    background-color: #FF4713;
+    border-color: #FF4713;
+}
+.btn-check:focus+.btn-danger, .btn-danger:focus {
+    color: rgb(0, 0, 0);
+    background-color: #FF4713;
+    border-color: #FF4713;
+    box-shadow: 0 0 0 0.25rem #ff46133b;
+}
+
